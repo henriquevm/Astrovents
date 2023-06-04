@@ -4,7 +4,7 @@ import { styles } from "./styles";
 export default function Start() {
     return (
         <View style={styles.container}>
-            <ImageBackground source={require('../../../img/open.png')} style={styles.imgOpen}>
+            <ImageBackground source={require('../../../img/open.png')} style={styles.imgBackground}>
                 <View style={styles.viewLogo}>
                     <Image source={require('../../../img/openLogo.png')} style={styles.imgOpenLogo} />
                     <Text style={styles.txtLogo}>Astrovents</Text>

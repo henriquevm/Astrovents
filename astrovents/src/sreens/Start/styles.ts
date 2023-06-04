@@ -2,13 +2,19 @@ import { StyleSheet, ImageBackground } from 'react-native';
 
 export const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        backgroundColor: '#fff',
+        //flex: 1,
+        //backgroundColor: '#714646ff',
+        //alignItems: 'center',
+        //justifyContent: 'center',
+    },
+    imgBackground:{
         alignItems: 'center',
         justifyContent: 'center',
+        width: '100%',
+        height:'100%'
     },
     viewLogo: {
-        flexDirection: 'row',
+        flexDirection: 'row'
     },
     imgOpenLogo: {
         width: 80,
