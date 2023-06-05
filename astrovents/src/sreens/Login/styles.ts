@@ -5,17 +5,13 @@ export const styles = StyleSheet.create({
         flex: 1,
         //height: 100%
         //backgroundColor: '#fff',
-        //alignItems: 'center',
+        alignItems: 'center',
         //justifyContent: 'center',
     },
-    imgOpen: {
-        flex: 1,
-        resizeMode: "cover",
-        justifyContent: "center",
-        alignItems: "center"
-    },
     viewLogo: {
-        flexDirection: 'row',
+        top: 100,
+        height: 200,
+        flexDirection: 'row'
     },
     imgOpenLogo: {
         width: 80,
@@ -26,31 +22,22 @@ export const styles = StyleSheet.create({
         fontSize: 45,
         paddingTop: 10
     },
-    viewButtons: {
-        position: 'absolute',
-        bottom: 35,
-        flexDirection: 'row',
-        justifyContent: 'flex-end',
+    formLogin: {
+        width: 320,
     },
-    buttonLogin:{
-        height: 52,
-        width: 167,
-        marginRight: 5,
-        backgroundColor: '#ffffff',
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderRadius: 5,
+    inputEmailPass: {
+        fontSize: 16,
+        marginBottom: 35,
+        paddingStart: 8,
+        height: 65,
+        borderWidth: 3,
         borderColor: '#000000',
-        borderWidth: 2
-        
+        borderStyle: 'solid',
+        borderRadius: 3,
     },
-    txtLogin:{
-        color: '#0c0c0c'
-    },
-    buttonSignUp:{
+    buttonSignUp: {
         height: 52,
-        width: 167,
-        marginLeft: 5,
+        width: 320,
         backgroundColor: '#0c0c0c',
         alignItems: 'center',
         justifyContent: 'center',
@@ -58,7 +45,15 @@ export const styles = StyleSheet.create({
         borderColor: '#000000',
         borderWidth: 2
     },
-    txtSignUp:{
+    txtSignUp: {
         color: '#f8f8f8'
+    },
+    viewForgotPassword: {
+        alignItems: 'flex-end',
+        paddingTop: 10,
+        paddingBottom: 30
+    },
+    txtForgotPassword: {
+        color: '#6E2307',
     }
 });
